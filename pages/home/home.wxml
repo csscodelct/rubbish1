@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<image class="bg" src="/images/bg.jpg"></image>
+<view class="container">
+  <view class="title">垃圾分类助手</view>
+  <view class="title-tip">一键查询免烦恼</view>
+  <view class="search-input">
+    <icon type="search"></icon>
+    <input type="text" placeholder="请输入查询的垃圾名称"/>
+  </view>
+  <view class="hot-search">
+    <view class="hot-search-title">热门搜索</view>
+    <view class="hot-item-list">
+      <view class="hot-item">粽子</view>
+      <view class="hot-item">鸡蛋壳</view>
+      <view class="hot-item">手机电池</view>
+      <view class="hot-item">粽子</view>
+      <view class="hot-item">西瓜皮</view>
+      <view class="hot-item">烟头</view>
+      <view class="hot-item">纸巾</view>
+    </view>
+  </view>
+  <view class="notice">
+    <view class="notice-tips">查询结果仅供参考，具体分类以归属地相关部门规定为准</view>
+  </view>
+</view>
